@@ -1,0 +1,226 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="x9tqugPTEvROvvLCsmhK" name="Page-1">
+    <mxGraphModel dx="1374" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="soVJRd6pQGs-wXoxnumR-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#0073e6;strokeWidth=2;arcSize=6;" value="" vertex="1">
+          <mxGeometry height="200" width="260" x="30" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=12;fontFamily=Helvetica;fontColor=#0073e6;" value="Consumption Layer" vertex="1">
+          <mxGeometry height="24" width="260" x="30" y="76" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0073e6;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Power BI&lt;/b&gt;&lt;br&gt;Live dashboards via&lt;br&gt;Snowflake connector" vertex="1">
+          <mxGeometry height="60" width="104" x="46" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0073e6;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Streamlit in Snowflake&lt;/b&gt;&lt;br&gt;Chatbot UI &amp; App&lt;br&gt;(Native)" vertex="1">
+          <mxGeometry height="60" width="104" x="166" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0073e6;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Snowflake Notebooks&lt;/b&gt;&lt;br&gt;Ad-hoc Python/SQL&lt;br&gt;Analysis" vertex="1">
+          <mxGeometry height="60" width="104" x="46" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0073e6;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;REST API&lt;/b&gt;&lt;br&gt;Snowflake SQL API&lt;br&gt;External Integrations" vertex="1">
+          <mxGeometry height="60" width="104" x="166" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-8" edge="1" parent="1" source="soVJRd6pQGs-wXoxnumR-2" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0073e6;strokeWidth=2;" target="soVJRd6pQGs-wXoxnumR-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;strokeWidth=2;arcSize=6;" value="" vertex="1">
+          <mxGeometry height="160" width="620" x="350" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-10" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=12;fontFamily=Helvetica;fontColor=#d6790f;" value="Orchestration / Routing Layer  (Snowflake Cortex Agent + Snowpark)" vertex="1">
+          <mxGeometry height="24" width="620" x="340" y="76" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Intent Classifier &amp; Router&lt;/b&gt;&lt;br&gt;Cortex COMPLETE()&lt;br&gt;Classifies: STRUCTURED /&lt;br&gt;UNSTRUCTURED / HYBRID" vertex="1">
+          <mxGeometry height="76" width="130" x="356" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Plan Generator &amp;&lt;br&gt;Agentic Reasoning&lt;/b&gt;&lt;br&gt;Snowpark Procedure&lt;br&gt;Multi-step sub-queries" vertex="1">
+          <mxGeometry height="76" width="130" x="502" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Dynamic Context&lt;br&gt;Augmentor&lt;/b&gt;&lt;br&gt;Semantic Layer metadata&lt;br&gt;injected as LLM context" vertex="1">
+          <mxGeometry height="76" width="130" x="648" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Response Synthesizer &amp;&lt;br&gt;Guardrails&lt;/b&gt;&lt;br&gt;Final COMPLETE() call&lt;br&gt;Anti-hallucination + PII" vertex="1">
+          <mxGeometry height="76" width="130" x="794" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-15" edge="1" parent="1" source="soVJRd6pQGs-wXoxnumR-11" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#d6b656;" target="soVJRd6pQGs-wXoxnumR-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-16" edge="1" parent="1" source="soVJRd6pQGs-wXoxnumR-12" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#d6b656;" target="soVJRd6pQGs-wXoxnumR-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-17" edge="1" parent="1" source="soVJRd6pQGs-wXoxnumR-13" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#d6b656;" target="soVJRd6pQGs-wXoxnumR-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;arcSize=6;" value="" vertex="1">
+          <mxGeometry height="160" width="780" x="200" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-19" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=12;fontFamily=Helvetica;fontColor=#2d7600;" value="Semantic Layer  (Snowflake Native)" vertex="1">
+          <mxGeometry height="24" width="780" x="200" y="314" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Ontology&lt;/b&gt;&lt;br&gt;Entity Relationships&lt;br&gt;HCP · HCO · Payer&lt;br&gt;(ONTOLOGY schema +&lt;br&gt;adjacency list tables)" vertex="1">
+          <mxGeometry height="80" width="162" x="216" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Taxonomy&lt;/b&gt;&lt;br&gt;Controlled Vocabularies&lt;br&gt;Hierarchies &amp; Classifications&lt;br&gt;(DISEASE_TAXONOMY,&lt;br&gt;PRODUCT_HIERARCHY)" vertex="1">
+          <mxGeometry height="80" width="162" x="394" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Business-Ready Data Products&lt;/b&gt;&lt;br&gt;Dynamic Tables + Logical Views&lt;br&gt;Pre-joined: HCP + HCO +&lt;br&gt;Claims + Sales + Affiliations" vertex="1">
+          <mxGeometry height="80" width="184" x="572" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Semantic Views / YAML&lt;/b&gt;&lt;br&gt;For Cortex Analyst&lt;br&gt;Defines metrics: TRX, NBRX,&lt;br&gt;Market Share, KPIs" vertex="1">
+          <mxGeometry height="80" width="184" x="772" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-24" edge="1" parent="1" source="soVJRd6pQGs-wXoxnumR-9" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#82b366;strokeWidth=2;dashed=1;fontStyle=2;fontSize=9;" target="soVJRd6pQGs-wXoxnumR-18" value="Reasoning &amp; Intent Lookup">
+          <mxGeometry relative="1" x="-0.3125" y="15" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;arcSize=6;" value="" vertex="1">
+          <mxGeometry height="250" width="420" x="30" y="548" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-26" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=11;fontFamily=Helvetica;fontColor=#b85450;" value="Unstructured Context Preparation Layer  (RAG in Snowflake)" vertex="1">
+          <mxGeometry height="24" width="420" x="30" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=10;fontFamily=Helvetica;align=left;" value="&lt;b&gt;RAG Pipeline&lt;/b&gt;&lt;br&gt;1. Snowpipe ingestion from SharePoint&lt;br&gt;2. Snowpark Python chunking (512 tokens)&lt;br&gt;3. EMBED_TEXT_1024() → VECTOR column&lt;br&gt;4. Cortex Search (hybrid keyword+vector)&lt;br&gt;5. COMPLETE() for answer generation" vertex="1">
+          <mxGeometry height="140" width="194" x="46" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;fontSize=10;fontFamily=Helvetica;align=left;" value="&lt;b&gt;GraphRAG Dynamic Semantic Bridge&lt;/b&gt;&lt;br&gt;Links Structured Entities to Unstructured Docs&lt;br&gt;&lt;br&gt;• DOCUMENT_ENTITY_MAP table&lt;br&gt;• NLP tagging: HCP_ID, HCO_ID,&lt;br&gt;  BRAND_ID, DISEASE_CODE per chunk&lt;br&gt;• Replaces external Knowledge Graph" vertex="1">
+          <mxGeometry height="140" width="194" x="246" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-29" parent="1" style="text;html=1;strokeColor=none;fillColor=#f8cecc;align=center;verticalAlign=middle;fontStyle=2;fontSize=10;fontFamily=Helvetica;" value="Metadata · Text Embeddings · Vector Index (Cortex Search)" vertex="1">
+          <mxGeometry height="72" width="388" x="33" y="722" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;arcSize=6;" value="" vertex="1">
+          <mxGeometry height="250" width="700" x="490" y="548" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-31" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=12;fontFamily=Helvetica;fontColor=#b46504;" value="Structured Context Preparation Layer" vertex="1">
+          <mxGeometry height="24" width="700" x="490" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;strokeWidth=1.5;arcSize=6;" value="" vertex="1">
+          <mxGeometry height="170" width="200" x="506" y="582" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-33" parent="1" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;fontStyle=1;fontSize=9;fontFamily=Helvetica;fontColor=#b46504;" value="OPTION A — Cortex Analyst (Recommended)" vertex="1">
+          <mxGeometry height="28" width="200" x="506" y="582" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-34" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Text-to-SQL Engine&lt;/b&gt;&lt;br&gt;• YAML semantic model in Stage&lt;br&gt;• NL → verified SQL → results&lt;br&gt;• YAML guardrails prevent&lt;br&gt;  hallucinated column names&lt;br&gt;• Row-Level Security enforced&lt;br&gt;• SQL validated before execution" vertex="1">
+          <mxGeometry height="130" width="188" x="512" y="616" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;strokeWidth=1.5;arcSize=6;" value="" vertex="1">
+          <mxGeometry height="170" width="200" x="726" y="582" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-36" parent="1" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;fontStyle=1;fontSize=9;fontFamily=Helvetica;fontColor=#b46504;" value="OPTION B — Snowpark Procedures" vertex="1">
+          <mxGeometry height="28" width="200" x="726" y="582" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-37" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Custom Business Logic&lt;/b&gt;&lt;br&gt;• Python/Scala stored procedures&lt;br&gt;• Dynamic Tables for KPI refresh&lt;br&gt;• Pre-built joined views&lt;br&gt;• Complex aggregations&lt;br&gt;  (TRX trend, market share)&lt;br&gt;• Scheduled via Snowflake Tasks" vertex="1">
+          <mxGeometry height="130" width="188" x="732" y="616" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;strokeWidth=1.5;arcSize=6;" value="" vertex="1">
+          <mxGeometry height="170" width="218" x="946" y="582" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-39" parent="1" style="text;html=1;strokeColor=none;fillColor=#fff2cc;align=center;verticalAlign=middle;fontStyle=1;fontSize=9;fontFamily=Helvetica;fontColor=#b46504;" value="OPTION C — Cortex Search (Hybrid)" vertex="1">
+          <mxGeometry height="28" width="218" x="946" y="582" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-40" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Semantic + Keyword Search&lt;/b&gt;&lt;br&gt;• Full-text + vector similarity&lt;br&gt;• Schemas, relationships,&lt;br&gt;  constraints as context&lt;br&gt;• ANN index auto-managed&lt;br&gt;• Secure data retrieval with&lt;br&gt;  row-access policies enforced" vertex="1">
+          <mxGeometry height="130" width="206" x="952" y="616" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;arcSize=6;" value="" vertex="1">
+          <mxGeometry height="300" width="1160" x="30" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-42" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=12;fontFamily=Helvetica;fontColor=#5c3a7a;" value="Data Layer  (Snowflake CDM + Document Store)" vertex="1">
+          <mxGeometry height="24" width="1160" x="30" y="844" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e8ff;strokeColor=#9673a6;strokeWidth=1.5;arcSize=6;" value="" vertex="1">
+          <mxGeometry height="224" width="340" x="46" y="876" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-44" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=10;fontFamily=Helvetica;fontColor=#5c3a7a;" value="Raw Schema  (RAW / LANDING)" vertex="1">
+          <mxGeometry height="20" width="328" x="52" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-45" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontFamily=Helvetica;" value="HCP_MASTER  ·  HCO_MASTER  ·  AFFILIATION&lt;br&gt;CLAIMS  ·  PRODUCT_MASTER&lt;br&gt;FIELD_EXECUTION  ·  SALES_PERFORMANCE&lt;br&gt;&lt;br&gt;Structured relational tables ingested via&lt;br&gt;Snowpipe / Streams &amp; Tasks" vertex="1">
+          <mxGeometry height="80" width="328" x="52" y="906" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e8ff;strokeColor=#9673a6;strokeWidth=1.5;arcSize=6;" value="" vertex="1">
+          <mxGeometry height="100" width="340" x="46" y="1006" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-47" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontFamily=Helvetica;" value="Semantic Schema  (SEMANTIC / CURATED)&lt;br&gt;HCP-360 View  ·  Active Affiliations&lt;br&gt;Sales Summary  ·  Pre-joined Dynamic Tables&lt;br&gt;Auto-refresh via Snowflake Streams" vertex="1">
+          <mxGeometry height="90" width="328" x="52" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e8ff;strokeColor=#9673a6;strokeWidth=1.5;arcSize=6;" value="" vertex="1">
+          <mxGeometry height="150" width="360" x="406" y="876" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-49" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontFamily=Helvetica;" value="Ontology Schema  (ONTOLOGY)&lt;br&gt;&lt;br&gt;HCO Hierarchy  ·  Product Hierarchy&lt;br&gt;Disease Hierarchy  ·  Specialty Taxonomy&lt;br&gt;Document-Level Metadata&lt;br&gt;Entity relationship tables (adjacency lists)" vertex="1">
+          <mxGeometry height="140" width="348" x="412" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e8ff;strokeColor=#9673a6;strokeWidth=1.5;arcSize=6;" value="" vertex="1">
+          <mxGeometry height="66" width="360" x="406" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-51" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=10;fontFamily=Helvetica;" value="Document Schema  (DOCS / UNSTRUCTURED)&lt;br&gt;DOCUMENT_CHUNKS  ·  DOCUMENT_ENTITY_MAP&lt;br&gt;Embeddings (VECTOR 1024) · SharePoint files via Snowpipe" vertex="1">
+          <mxGeometry height="56" width="348" x="412" y="1044" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#29B5E8;strokeColor=#1a88b5;fontColor=#ffffff;fontStyle=1;fontSize=13;fontFamily=Helvetica;" value="Snowflake CDM" vertex="1">
+          <mxGeometry height="60" width="180" x="790" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=10;fontFamily=Helvetica;" value="SharePoint / Amazon S3&lt;br&gt;Source Documents&lt;br&gt;(PDFs, Word, Presentations)" vertex="1">
+          <mxGeometry height="72" width="180" x="810" y="1058" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-54" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#9673a6;strokeWidth=1.5;dashed=1;fontStyle=2;fontSize=9;" value="Snowpipe">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="827" y="1130" />
+              <mxPoint x="400" y="1130" />
+              <mxPoint x="400" y="800" />
+            </Array>
+            <mxPoint x="827" y="1112" as="sourcePoint" />
+            <mxPoint x="290" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-55" edge="1" parent="1" source="soVJRd6pQGs-wXoxnumR-41" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#b85450;strokeWidth=2;dashed=1;fontStyle=2;fontSize=9;" target="soVJRd6pQGs-wXoxnumR-25" value="Metadata &amp; Embeddings">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-56" edge="1" parent="1" source="soVJRd6pQGs-wXoxnumR-41" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#d6b656;strokeWidth=2;fontStyle=2;fontSize=9;" target="soVJRd6pQGs-wXoxnumR-30" value="Schemas, Relationships, Constraints">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-57" edge="1" parent="1" source="soVJRd6pQGs-wXoxnumR-18" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.35;entryY=1;entryDx=0;entryDy=0;strokeColor=#82b366;strokeWidth=2;fontStyle=1;fontSize=9;" target="soVJRd6pQGs-wXoxnumR-9" value="KM">
+          <mxGeometry relative="1" x="0.2035" y="17" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-58" edge="1" parent="1" source="soVJRd6pQGs-wXoxnumR-25" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#82b366;strokeWidth=2;" target="soVJRd6pQGs-wXoxnumR-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-59" edge="1" parent="1" source="soVJRd6pQGs-wXoxnumR-30" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#82b366;strokeWidth=2;" target="soVJRd6pQGs-wXoxnumR-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#0073e6;strokeWidth=2;arcSize=6;" value="" vertex="1">
+          <mxGeometry height="1058" width="210" x="1230" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-61" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=12;fontFamily=Helvetica;fontColor=#0073e6;" value="Data Governance Layer&lt;br&gt;(Snowflake Native)" vertex="1">
+          <mxGeometry height="40" width="210" x="1230" y="76" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-62" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0073e6;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Business Glossary &amp; KPI Catalog&lt;/b&gt;&lt;br&gt;Snowflake Object Tagging&lt;br&gt;+ YAML semantic definitions" vertex="1">
+          <mxGeometry height="70" width="186" x="1242" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0073e6;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Data Lineage &amp; Traceability&lt;/b&gt;&lt;br&gt;Snowflake Access History&lt;br&gt;+ Dynamic Table lineage graph" vertex="1">
+          <mxGeometry height="70" width="186" x="1242" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0073e6;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Data Quality &amp; Observability&lt;/b&gt;&lt;br&gt;Snowflake Data Metric Functions&lt;br&gt;+ Automated quality checks" vertex="1">
+          <mxGeometry height="70" width="186" x="1242" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0073e6;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Business Metadata Graph&lt;/b&gt;&lt;br&gt;ONTOLOGY schema tables&lt;br&gt;+ Entity relationship maps" vertex="1">
+          <mxGeometry height="70" width="186" x="1242" y="478" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0073e6;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Document-Level Metadata&lt;/b&gt;&lt;br&gt;DOCUMENT_CHUNKS table&lt;br&gt;Source, date, page, entity tags" vertex="1">
+          <mxGeometry height="70" width="186" x="1241" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0073e6;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Unstructured Lineage&lt;/b&gt;&lt;br&gt;Document source tracking&lt;br&gt;via DOCUMENT_ENTITY_MAP" vertex="1">
+          <mxGeometry height="70" width="186" x="1242" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-68" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#0073e6;fontSize=10;fontFamily=Helvetica;" value="&lt;b&gt;Access Control &amp; PII Masking&lt;/b&gt;&lt;br&gt;Dynamic Data Masking&lt;br&gt;Row-Level Security Policies&lt;br&gt;Role-Based Access (RBAC)" vertex="1">
+          <mxGeometry height="80" width="186" x="1241" y="888" as="geometry" />
+        </mxCell>
+        <mxCell id="soVJRd6pQGs-wXoxnumR-69" edge="1" parent="1" source="soVJRd6pQGs-wXoxnumR-60" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.3;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0073e6;strokeWidth=2;dashed=1;" target="soVJRd6pQGs-wXoxnumR-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
