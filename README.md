@@ -1,185 +1,98 @@
-So our work is more on a research and reading and like figure out like how it should be like providing a thought leadership. OK, more of a thought leadership.
-MD
-Mahesha, Divya (Ext)
-14 minutes 22 seconds14:22
-Mahesha, Divya (Ext) 14 minutes 22 seconds
-Like how we can document and everything could be performed well, yeah.
-
-Chavda, Jalpeshkumar
-14 minutes 25 seconds14:25
-Chavda, Jalpeshkumar 14 minutes 25 seconds
-Yeah, yeah, right. How we, how things should happen. So people will come and ask us like how this should be, is it correct or not? And then we have to answer that, right? And to do that, we have to 1st learn or read about it.
-MD
-Mahesha, Divya (Ext)
-14 minutes 40 seconds14:40
-Mahesha, Divya (Ext) 14 minutes 40 seconds
-Oh, yeah.
-
-Chavda, Jalpeshkumar
-14 minutes 41 seconds14:41
-Chavda, Jalpeshkumar 14 minutes 41 seconds
-Yeah, so like for an example.
-Chavda, Jalpeshkumar 14 minutes 45 seconds
-Yesterday we have a meeting, right? And let me share my screen real quick. I have only one minute, so we'll go through real quick. So this deck, have you seen?
-MD
-Mahesha, Divya (Ext)
-14 minutes 57 seconds14:57
-Mahesha, Divya (Ext) 14 minutes 57 seconds
-I MDM, yeah.
-
-Chavda, Jalpeshkumar
-14 minutes 58 seconds14:58
-Chavda, Jalpeshkumar 14 minutes 58 seconds
-I MDM, which different layer and this thing, right?
-MD
-Mahesha, Divya (Ext)
-14 minutes 59 seconds14:59
-Mahesha, Divya (Ext) 14 minutes 59 seconds
-Yeah.
-Mahesha, Divya (Ext) 15 minutes 2 seconds
-No, this thing, no, not this one. The old one I had changed. Yeah, yeah, okay.
-
-Chavda, Jalpeshkumar
-15 minutes 5 seconds15:05
-Chavda, Jalpeshkumar 15 minutes 5 seconds
-Oh, sorry, I will share it with you, okay?
-MD
-Mahesha, Divya (Ext)
-16 minutes 31 seconds16:31
-Mahesha, Divya (Ext) 16 minutes 31 seconds
-Okay.
-Mahesha, Divya (Ext) 16 minutes 46 seconds
-Yeah.
-
-Chavda, Jalpeshkumar
-16 minutes 49 seconds16:49
-Chavda, Jalpeshkumar 16 minutes 49 seconds
-out of those 100 table, let's reduce the number of entities and create a common data model, right? So if there are 10 table exist, like for an example, these are five tables, right? So one is saying that specialty, what is the HCP or doctor specialty is, what is doctor affiliation to hospital is, right? Credential is what doctor's degree is, right? Is it a M?
-MD
-Mahesha, Divya (Ext)
-17 minutes 5 seconds17:05
-Mahesha, Divya (Ext) 17 minutes 5 seconds
-Affiliate.
-
-Chavda, Jalpeshkumar
-17 minutes 9 seconds17:09
-Chavda, Jalpeshkumar 17 minutes 9 seconds
-MBBS or MS or whatnot, right? What is doctors? So these are like 5 different table. If I create a common data model, I have one table with all of this information in one. So when AI comes, AI doesn't have to create any SQL query.
-MD
-Mahesha, Divya (Ext)
-17 minutes 13 seconds17:13
-Mahesha, Divya (Ext) 17 minutes 13 seconds
-It is.
-Mahesha, Divya (Ext) 17 minutes 15 seconds
-And.
-Mahesha, Divya (Ext) 17 minutes 24 seconds
-Piyush.
-
-Chavda, Jalpeshkumar
-17 minutes 25 seconds17:25
-Chavda, Jalpeshkumar 17 minutes 25 seconds
-Because it's a single demo, right? That's what a common data model concept is. So this is what we are proposing, right? So people are okay with that, but then they are asking us, and tomorrow we have meetings, so you have to read about it like today, like whatever hours, today, here in the morning, right? And then we'll connect in the morning itself.
-MD
-Mahesha, Divya (Ext)
-17 minutes 27 seconds17:27
-Mahesha, Divya (Ext) 17 minutes 27 seconds
-Mm.
-Mahesha, Divya (Ext) 17 minutes 43 seconds
-Okay.
-
-Chavda, Jalpeshkumar
-17 minutes 45 seconds17:45
-Chavda, Jalpeshkumar 17 minutes 45 seconds
-They are saying that, like, why you have to go buy bronze, silver, and gold?
-Chavda, Jalpeshkumar 17 minutes 49 seconds
-Can we just have like bronze layer is basically you just, it's a landing zone, right? You just land data as it is, your raw data.
-MD
-Mahesha, Divya (Ext)
-17 minutes 53 seconds17:53
-Mahesha, Divya (Ext) 17 minutes 53 seconds
-Hi.
-Mahesha, Divya (Ext) 17 minutes 57 seconds
-Mhm.
-
-Chavda, Jalpeshkumar
-17 minutes 57 seconds17:57
-Chavda, Jalpeshkumar 17 minutes 57 seconds
-Right, then you just curate it like little bit, you massage it, you do the core data quality check and filter out whatever few other things and that's curation comes in integration layer and just put a agent on top of integration layer, right? Why you are going so many hops?
-MD
-Mahesha, Divya (Ext)
-18 minutes 5 seconds18:05
-Mahesha, Divya (Ext) 18 minutes 5 seconds
-Ext.
-Mahesha, Divya (Ext) 18 minutes 7 seconds
-It'll happen.
-Mahesha, Divya (Ext) 18 minutes 16 seconds
-Okay.
-
-Chavda, Jalpeshkumar
-18 minutes 17 seconds18:17
-Chavda, Jalpeshkumar 18 minutes 17 seconds
-Right? So we have to provide our thought leadership that do we really need it or do we don't need it, right? I don't know the answer is, right? So can you do some research on that? I'm going to share this document. And we don't have to.
-
-Create any formal documents. OK, so whatever you learn, just put it in bullet points somewhere in notepad, we notepad OK, mail OK, whatever is right, just just highlight that and tomorrow we'll discuss. So before we go, I go to meeting, we'll discuss and then we'll represent our point of view, OK?
-MD
-Mahesha, Divya (Ext)
-18 minutes 45 seconds18:45
-Mahesha, Divya (Ext) 18 minutes 45 seconds
-Yeah.
-Mahesha, Divya (Ext) 18 minutes 53 seconds
-Yes, sure.
-
-Chavda, Jalpeshkumar
-18 minutes 55 seconds18:55
-Chavda, Jalpeshkumar 18 minutes 55 seconds
-Vivek, so you.
-MD
-Mahesha, Divya (Ext)
-18 minutes 55 seconds18:55
-Mahesha, Divya (Ext) 18 minutes 55 seconds
-and any other questions which I have to research on.
-
-Chavda, Jalpeshkumar
-19 minutes19:00
-Chavda, Jalpeshkumar 19 minutes
-No, right now, right now this is what it is, right? So we, they are saying that give us a thought process, thought leadership on how, how my data, yeah, how my data processing should look like. Just forget about like this layer, like what is your futuristic way of doing data processing? Till now we all are.
-MD
-Mahesha, Divya (Ext)
-19 minutes 2 seconds19:02
-Mahesha, Divya (Ext) 19 minutes 2 seconds
-Okay.
-Mahesha, Divya (Ext) 19 minutes 6 seconds
-White together with brown cell, yeah.
-
-Chavda, Jalpeshkumar
-19 minutes 18 seconds19:18
-Chavda, Jalpeshkumar 19 minutes 18 seconds
-following that modillion architecture, right? Silver, bronze, silver, gold.
-MD
-Mahesha, Divya (Ext)
-19 minutes 23 seconds19:23
-Mahesha, Divya (Ext) 19 minutes 23 seconds
-Yeah.
-
-Chavda, Jalpeshkumar
-19 minutes 24 seconds19:24
-Chavda, Jalpeshkumar 19 minutes 24 seconds
-We are challenging it, right? So, let's say, like, how my data processing should happen. That's a very broader point, and then once you start doing like ChatGPT or whatnot, you will get into deeper, right? If there is any point, you go further, deeper, further, deeper, right? So, you get more content on it, right?
-MD
-Mahesha, Divya (Ext)
-19 minutes 26 seconds19:26
-Mahesha, Divya (Ext) 19 minutes 26 seconds
-Okay.
-Mahesha, Divya (Ext) 19 minutes 41 seconds
-Yes, yes.
-
-Chavda, Jalpeshkumar
-19 minutes 44 seconds19:44
-Chavda, Jalpeshkumar 19 minutes 44 seconds
-But it's more of a thought leadership we have to provide, not the formal document or not
-
-
-read the above convo and help me for the soultion to it in deeper level and aslso make sure you cover why bronze,silver,gold layer ?
-how data processing look like 
-
-
+Data Processing Architecture: Thought Leadership Documentation
+Executive Summary
+The core question being challenged: Do we still need Bronze → Silver → Gold (Medallion Architecture) in an AI-first world, or can we simplify the data processing pipeline?
+ 
+This document covers:
+1. Why Medallion Architecture exists
+2. What each layer does
+3. The challenge to it
+4. Futuristic data processing thinking
+5. CDM (Common Data Model) role with AI Agents
+6. Your Thought Leadership POV
+ 
+ 
+What is Medallion (Bronze/Silver/Gold) Architecture?
+ 
+Origin & Purpose
+The Medallion Architecture was popularized by Databricks as a data design pattern used to organize data in a Lakehouse. The name comes from the progressive quality tiers — like medals — where data gets more refined and trusted as it moves through each layer.
+It was designed to solve data chaos — when multiple source systems dump raw data into a warehouse and nobody knows what's clean, what's raw, and what's ready for business use.
+ 
+Deep Dive — Each Layer Explained
+ 
+BRONZE Layer (Landing / STG — Staging)
+1. The raw landing zone — data arrives exactly as it comes from the source
+2. No transformation, no cleaning, no business logic
+3. It's a historical archive of everything that ever came in
+ 
+What happens here:
+1. SFTP files land here
+2. S3-to-S3 copies happen here
+3. API pulls dump data here
+4. Oracle/JDBC extracts come in raw
+5. Website clickstream, CRM exports, MDM feeds — all land here as-is
+ 
+Why it exists:
+ReasonExplanationAudit & LineageYou always have the original source of truth. If anything goes wrong downstream, you can re-process from BronzeReprocessingIf a business rule changes, you don't need to re-extract from the source. Just re-process BronzeDebuggingWhen data looks wrong in reporting, you trace back to Bronze to see what came in originallyComplianceRegulatory requirements (HIPAA, GDPR) often require raw data retentionMultiple consumersMultiple downstream pipelines can read from Bronze independently without hitting the source system again
+In our architecture (from the deck):
+ 
+STG (Staging) = Bronze
+Data lands from all sources: Internal (CRM, MDM, NPS, Interaction, Promotions) + External (Sales, SP, Affiliation, EHR, Market Research, Longitudinal)
+Ingestion framework handles: SFTP, S3-S3, SF Share, JDBC, REST API, Website
+ 
+SILVER Layer (INT + DWH — Integration + Data Warehouse)
+1. The curated, cleansed, and integrated layer
+2. Raw data from Bronze is cleaned, validated, standardized, and joined across sources
+3. This is where data starts to make business sense
+ 
+What happens here (two sub-layers in our architecture):
+ 
+INT (Integration / Unification):
+Schema standardization — different source systems use different column names (e.g., cust_id vs customer_id vs CUST_NUM) → unified to one standard
+Data type normalization — dates in different formats → unified format
+Deduplication — same doctor record from CRM and MDM → deduplicated
+Data quality checks — null checks, range checks, referential integrity
+Entity resolution — is "Dr. John Smith at Apollo" in CRM the same as "J. Smith, Apollo Hospitals" in MDM? → resolved here
+ 
+DWH (Data Warehouse / Refinement):
+Business logic applied — calculations, categorizations, aggregations
+Domain modeling — HCP (Healthcare Professional) data, HCO (Healthcare Organization) data structured properly
+Historical tracking — Slowly Changing Dimensions (SCD) — track how a doctor's specialty changed over time
+Fact and Dimension tables — traditional star schema or data vault modeling
+ 
+Why it exists:
+ReasonExplanationData TrustBusiness users and analysts need clean data, not raw dumpsCross-source JoinsCRM data + MDM data + EHR data need to be joined — Silver is where this happensPerformancePre-joined, pre-cleaned data is faster to query than raw tablesGovernanceBusiness rules are applied once here, not in 50 different reports
+ 
+GOLD Layer (CDM + Semantic Data — Common Data Model)
+1. The business-ready, use-case-optimized layer
+2. Highly aggregated, denormalized, and purpose-built for consumption
+3. In your architecture: CDM → Semantic Data → AI Agent
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+What happens here:
+ 
+CDM (Common Data Model):
+Takes the 5-10 normalized tables from Silver and collapses them into 1 unified entity
+Example: Instead of:
+ 
+HCP_Specialty table
+HCP_Affiliation table
+HCP_Credential table
+HCP_Territory table
+HCP_Interaction table
+ 
+CDM has one HCP table with columns: hcp_id, name, specialty, affiliation, credential, territory, last_interaction, etc.
+ 
+Semantic Data:
+1. Goes beyond CDM — adds business context and meaning
+2. Relationships between entities (HCP ↔ HCO, HCP ↔ Territory, HCP ↔ Product Affinity)
+3. Use-case oriented views: "Top Prescribers in Cardiology in South Region"
+4. Ready for AI Agents to consume without writing SQL
+ 
+Why it exists:
+ReasonExplanationAI ReadinessAI agents need flat, rich, contextual data — not normalized relational tablesSelf-serve analyticsBusiness users can query Gold without needing a data engineerSpeedNo joins needed — everything is pre-computedConsistencyOne single definition of "HCP" across the enterprise
+ 
